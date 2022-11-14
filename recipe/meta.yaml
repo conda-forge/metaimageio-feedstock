@@ -1,5 +1,5 @@
 {% set name = "metaimageio" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7adf078efb8d89b0b51fd593765b4dc91f2e4fcefb4f0cde6635c9e8ef05b215
+  sha256: cb595f92c87d9cce7be2c35558409cf4c36802d43ca3e7033a5ebd14401bc167
 
 build:
   noarch: python
