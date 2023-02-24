@@ -20,7 +20,7 @@ requirements:
     - pip
     - python >=3.6
   run:
-    - imageio >=2.8
+    - imageio >=2.16
     - numpy >=1.19
     - python >=3.6
 
