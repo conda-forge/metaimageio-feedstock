@@ -1,11 +1,11 @@
-About metaimageio
-=================
+About metaimageio-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/metaimageio-feedstock/blob/main/LICENSE.txt)
 
 Home: https://auneri.github.io/MetaImageIO
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/metaimageio-feedstock/blob/main/LICENSE.txt)
 
 Summary: Support for reading and writing images in MetaIO file format
 
