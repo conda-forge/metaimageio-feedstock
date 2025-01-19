@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools >=64
   run:
     - imageio >=2.8
     - numpy >=1.19
