@@ -12,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,8 +21,7 @@ requirements:
     - python {{ python_min }}
     - setuptools >=64
   run:
-    - imageio >=2.8
-    - numpy >=1.19
+    - numpy >=1.26
     - python >={{ python_min }}
 
 test:
